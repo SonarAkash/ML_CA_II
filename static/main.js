@@ -3,7 +3,7 @@ window.onload = function () {
     var year = document.getElementById("year-dropdown");
 
     //Loop and add the Year values to DropDownList.
-    for (var i = 2000; i <= 2050; i++) {
+    for (var i = 2026; i <= 2035; i++) {
         var option = document.createElement("OPTION");
         option.innerHTML = i;
         option.value = i;
